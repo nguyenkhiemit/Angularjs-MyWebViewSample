@@ -1,0 +1,46 @@
+#newsletter {
+  min-height: 70px;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+  color: white;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 17px;
+}
+
+#newsletter input[type="email"] {
+  height: 25px;
+  padding: 4px;
+  width: 250px;
+}
+
+#newsletter .button_1 {
+  height: 38px;
+  background-color: #e8401d;
+  border: 0;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.dark {
+  background: #35424a;
+  color: white;
+  padding: 8px;
+}

@@ -1,0 +1,46 @@
+article#main-col {
+  float: left;
+  width: 70%;
+}
+
+article#main-col ul {
+  padding-left: 0;
+}
+
+article#main-col li {
+  list-style: none;
+  background: #e6e6e6;
+  border: #cccccc 1px solid;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+aside#sidebar {
+  float: right;
+  width: 25%;
+  background: #35424a;
+  color: white;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+aside#sidebar input {
+  width: 97%;
+  margin-right: 8px;
+  height: 24px;
+}
+
+aside#sidebar textarea {
+  width: 98%;
+  height: 80px;
+}
+
+aside#sidebar button {
+  height: 24px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: orangered;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
