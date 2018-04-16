@@ -1,0 +1,14 @@
+<header>
+  <div class="container">
+    <div class="branding">
+      <h1><span class="highlight">Acme</span> Web Design</h1>
+    </div>
+    <nav>
+      <ul>
+        <li *ngFor="let item of items; let i = index">
+          <a [ngClass]="{'current': item.currentIndex == true}" routerLink={{item.path}} (click)="changeIndex(i)">{{item.name}}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
