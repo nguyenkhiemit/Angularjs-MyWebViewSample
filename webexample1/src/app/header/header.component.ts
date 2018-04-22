@@ -14,8 +14,10 @@ export class HeaderComponent implements OnInit {
   constructor() {
     this.items = [
       { 'currentIndex': true , 'path': 'home', 'name': 'HOME' },
+      { 'currentIndex': false , 'path': 'discovery', 'name': 'DISCOVERY'},
       { 'currentIndex': false , 'path': 'about', 'name': 'ABOUT' },
       { 'currentIndex': false , 'path': 'service', 'name': 'SERVICE' },
+      { 'currentIndex': false , 'path': 'layout', 'name': 'LAYOUT'},
     ];
   }
 

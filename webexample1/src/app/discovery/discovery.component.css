@@ -1,0 +1,84 @@
+#header .ground {
+  width: 100%;
+  height: 80px;
+  background: #35424a;
+}
+
+#header .ground .space {
+  width: 100%;
+  height: 55px;
+}
+
+#header .container ul {
+  list-style: none;
+}
+
+#header .container ul li {
+  display: inline-block;
+  background: #35424a;
+}
+
+#header .container ul li a {
+  color: white;
+  padding: 10px;
+}
+
+#header .container ul li .current {
+  color: #35424a;
+  padding: 10px;
+  background: white;
+}
+
+#carousel .carousel-item .title {
+  width: 100%;
+  height: 50px;
+  background: #35424a;
+  text-align: center;
+  line-height: 50px;
+}
+
+#carousel .carousel-item a {
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+#carousel img {
+  width: 100%;
+  height: auto;
+}
+
+#carouselExampleSlidesOnly {
+  position: relative;
+}
+
+#carousel .direction {
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
+#carousel .direction .content {
+  width: 400px;
+  height: 100%;
+  margin: auto;
+}
+
+#carousel .direction a {
+  line-height: 50px;
+  font-size: 20px;
+  color: #cccccc;
+  text-decoration: none;
+}
+
+#carousel .direction a.left {
+  float: left;
+}
+
+#carousel .direction a.right {
+  float: right;
+}
+

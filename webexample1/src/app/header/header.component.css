@@ -2,9 +2,11 @@
 header {
   background: #35424a;
   color: #ffffff;
-  padding-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   min-height: 70px;
   border-bottom: #e8401d 3px solid;
+  overflow: hidden;
 }
 
 header a {
@@ -26,6 +28,7 @@ header li {
 }
 
 header .branding {
+  display: inline-block;
   float: left;
 }
 
@@ -35,7 +38,7 @@ header .branding h1 {
 
 header nav {
   float: right;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 header .highlight, header .current {

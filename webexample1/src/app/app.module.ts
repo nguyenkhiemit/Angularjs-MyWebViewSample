@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import {RouterModule} from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { ServiceComponent } from './service/service.component';
+import { LayoutComponent } from './layout/layout.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DiscoveryComponent } from './discovery/discovery.component';
 
 
 @NgModule({
@@ -18,7 +21,9 @@ import { ServiceComponent } from './service/service.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    ServiceComponent
+    ServiceComponent,
+    LayoutComponent,
+    DiscoveryComponent
   ],
   imports: [
     BrowserModule,
@@ -39,8 +44,16 @@ import { ServiceComponent } from './service/service.component';
       {
         path: 'service',
         component: ServiceComponent
+      },
+      {
+        path: 'layout',
+        component: LayoutComponent
+      },
+      {
+        path: 'discovery',
+        component: DiscoveryComponent
       }
-    ])
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]

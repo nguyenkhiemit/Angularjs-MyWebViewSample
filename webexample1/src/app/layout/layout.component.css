@@ -1,0 +1,225 @@
+#filter-header {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-height: 60px;
+  background: white;
+  padding-top: 7px;
+  border-bottom: 1px #cccccc solid;
+}
+
+#filter-header .dropdown {
+  float: left;
+  margin: 5px;
+}
+
+#filter-header .dropdown .menu-border {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.button-border {
+  border: 1px solid #cccccc;
+  height: 35px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+.layout-border {
+  border: 1px solid #cccccc;
+  height: 35px;
+  text-align: center;
+}
+
+.layout-border input {
+  width: 200px;
+  height: 33px;
+  border: 0;
+  padding-left: 5px;
+}
+
+.layout-border img {
+  width: 20px;
+  height: 20px;
+}
+
+.layout-border .button-search {
+  width: 34px;
+  height: 33px;
+  border-left: 1px #cccccc solid;
+  background: #e6e6e6;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 5px;
+  float: right;
+}
+
+#province {
+  width: 300px;
+}
+
+#province .title {
+  width: 98%;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+#province .search {
+  width: 100%;
+  border: 1px #cccccc solid;
+  height: 30px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#province .search .fa {
+  margin: 5px;
+  font-size: 15px;
+  float: left;
+}
+
+#province .search input {
+  background: white;
+  width: 80%;
+  border: 0;
+  float: left;
+  height: 28px;
+}
+
+#province ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+#province li {
+  border-bottom: 1px #cccccc solid;
+  margin-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#province li a {
+  height: 25px;
+  font-size: 14px;
+}
+
+#province .footer {
+  background: #cccccc;
+  margin-top: 5px;
+}
+
+#province .footer p {
+  float: left;
+  font-size: 14px;
+  width: 25%;
+  text-align: center;
+}
+
+.tab-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0;
+  width: 100%;
+  height: 45px;
+  background: #cccccc;
+  overflow: hidden;
+}
+
+.tab-bar div {
+  margin: 0;
+  float: left;
+}
+
+.tab-bar ul {
+  list-style: none;
+}
+
+.tab-bar ul li {
+  display: inline;
+  float: left;
+}
+
+.tab-bar ul li div {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.tab-bar ul li div a {
+  color: #35424a;
+}
+
+.tab-bar ul li div.tab-current {
+  background: white;
+  color: #e8401d;
+  border-bottom: 1px #e8401d solid;
+  text-align: center;
+}
+
+.tab-bar .sort {
+  float: right;
+  margin-top: 7px;
+  margin-right: 40px;
+  height: 30px;
+  border: 1px #35424a solid;
+}
+
+.tab-bar .sort a {
+  margin: 0;
+  background: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 28px;
+  font-size: 14px;
+  float: left;
+}
+
+.tab-bar .sort i {
+  width: 28px;
+  height: 28px;
+  background: #e6e6e6;
+  border-left: 1px #35424a solid;
+  text-align: center;
+  float: right;
+  font-size: 20px;
+}
+
+#gallery .ground {
+  padding: 10px;
+  overflow: hidden;
+}
+
+#gallery .ground .parent {
+  background: white;
+  float: left;
+  border: 1px #cccccc solid;
+  border-radius: 2px;
+}
+
+#gallery .ground .parent img {
+  width: 100%;
+}
+
+#gallery .ground .parent .name {
+  font-weight: bold;
+  padding: 8px;
+  width: 100%;
+  float: left;
+}
+
+#gallery .ground .parent .address {
+  font-weight: lighter;
+  padding-left: 8px;
+  width: 100%;
+  padding-bottom: 8px;
+  float: left;
+}

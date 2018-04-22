@@ -1,0 +1,92 @@
+<section id="filter-header">
+  <div class="dropdown">
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle button-border" data-toggle="dropdown">
+      Hà Nội
+    </button>
+    <div id="province" class="dropdown-menu">
+      <p class="title fa fa-apple">Tỉnh thành</p>
+      <div class="search">
+        <p class="fa fa-search"></p>
+        <input type="text">
+      </div>
+      <ul>
+        <li><a>Hà Nội</a></li>
+        <li><a>Hồ Chí Minh</a></li>
+        <li><a>Dà Nẵng</a></li>
+        <li><a>Cần Thơ</a></li>
+        <li><a>Hải Phòng</a></li>
+      </ul>
+      <div class="footer">
+        <p class="fa fa-map-marker">255k</p>
+        <p class="fa fa-comment">1M</p>
+        <p class="fa fa-camera">7M</p>
+        <p class="fa fa-location-arrow">17M</p>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle button-border" data-toggle="dropdown">
+      Hà Nội
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown layout-border">
+    <div data-toggle="dropdown">
+      <input type="text" placeholder="Địa điểm, món ăn ...">
+      <img src="../assets/image/filter.png">
+      <label>Bộ lọc</label>
+      <i class="button-search fa fa-search"></i>
+    </div>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <img src="../assets/image/menu.png" data-toggle="dropdown" class="menu-border">
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Link 1</a>
+      <a class="dropdown-item" href="#">Link 2</a>
+      <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container tab-bar">
+    <div>
+      <ul>
+        <li *ngFor="let tab of tabbars, let i = index">
+          <div (click)="changeTab(i)" [ngClass]="{'tab-current': tab.currentIndex == true}"><a routerLink={{tab.path}}>{{tab.name}}</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="sort">
+      <a>Nổi bật</a>
+      <i class="fa fa-sort-down"></i>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let item of gallerys; let i = index">
+        <div class="ground">
+          <div class="parent">
+            <img src={{item.image}}>
+            <a class="name">{{item.name}}</a>
+            <a class="address">{{item.address}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

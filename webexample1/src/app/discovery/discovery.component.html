@@ -1,0 +1,31 @@
+<section id="header">
+  <div class="ground">
+    <div class="container">
+      <div class="space"></div>
+      <ul>
+        <li *ngFor="let item of items; let i = index">
+          <a [ngClass]="{'current': item.currentIndex == true}" routerLink={{item.path}}>{{item.name}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item" *ngFor="let item of arrCarousel; let i = index" [ngClass]="{active: isActive(item.path)}">
+        <img class="d-block w-100" src="{{item.path}}" alt="First slide">
+        <div class="title">
+          <a>{{item.name}}</a>
+        </div>
+      </div>
+    </div>
+    <div class="direction">
+      <div class="content">
+        <a class="fa fa-chevron-left left"  href="#carouselExampleControls" data-slide="prev" role="button"></a>
+        <a class="fa fa-chevron-right right" href="#carouselExampleControls" data-slide="next" role="button"></a>
+      </div>
+    </div>
+  </div>
+</section>
